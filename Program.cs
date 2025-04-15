@@ -8,7 +8,7 @@ namespace ArrayProcessingApp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void ProcessInput(string[] args)
         {
             // Создаем экземпляр класса ArrayProcessor
             var processor = new ArrayProcessor();

@@ -15,7 +15,7 @@ namespace ArrayProcessingApp.Tests
             var result = processor.ProcessArray(array);
 
             Assert.Equal(-4, result.sum);  // -1+(-3) = -4 (отрицательные элементы)
-            Assert.Equal(-5, result.product);  // -1*5 = -5 (нечетные элементы)
+            Assert.Equal(15, result.product);  // -1*-3*5 = 15 (нечетные элементы)
         }
 
         // Тест для проверки исключения при отсутствии нечетных элементов
